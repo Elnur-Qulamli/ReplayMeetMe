@@ -1,0 +1,104 @@
+$maincolor:#8D778D;
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    object-fit: cover;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+::selection {  
+    background-color: blue;
+    color: white;
+}
+
+header{
+    background-image: linear-gradient(to right, #766DFF, #88F1FF);
+}
+.body_color{
+   background-image: linear-gradient(to right, #766DFF, #88F1FF); 
+}
+
+    div{
+        div{
+            .logo {
+                a {
+                    color: white;
+                    font-size: 1.4em;
+                    font-weight: 400;
+                }
+            }
+
+            ul {
+                padding: 0;
+                margin: 0;
+
+                li {
+                    display: inline;
+                    padding: 0.8em;
+
+                    a {
+                        font-size: 1em;
+                        color: white;
+                        }
+                    }
+                }
+            }
+        }
+
+        .middle_picture{
+            padding: 100px;
+            position: relative;
+            border-radius:15px;
+        }
+
+        .middle_picture{
+            .container{
+                .row{
+                    padding-top:10px;
+                    background-color:white;
+                    border-radius:15px;
+                }
+                .main_picture{
+                 img{
+    margin-top: 20px;
+   margin-bottom: 20px; 
+margin-left: 15px;
+   }     
+                }
+                    .main_write{
+                        padding-top:100px;
+                        h2{
+                            font-size:45px;
+                        font-weight: 700;
+                        color:#222222;
+                        }
+                        p{
+                            padding-right: 15px;
+                            color:$maincolor;
+                        }
+                    
+                    .icon{
+                        ul{
+                            display:block;
+                        }
+                        li{
+                            a{
+                                color:#8D778D;
+                                padding-left:0;
+                            }  
+                        }
+                                }
+
+    .educated{
+        background-image: linear-gradient(to right, #766DFF, #88F1FF)
+    }

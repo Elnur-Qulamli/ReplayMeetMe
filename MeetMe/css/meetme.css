@@ -1,0 +1,189 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Merriweather', serif;
+}
+
+::-moz-selection {
+  background-color: blue;
+  color: white;
+}
+
+::selection {
+  background-color: blue;
+  color: white;
+}
+
+header {
+  padding-top: 20px;
+  background-image: -webkit-gradient(linear, left top, right top, from(#766DFF), to(#88F1FF));
+  background-image: linear-gradient(to right, #766DFF, #88F1FF);
+}
+
+.body_color {
+  background-image: -webkit-gradient(linear, left top, right top, from(#766DFF), to(#88F1FF));
+  background-image: linear-gradient(to right, #766DFF, #88F1FF);
+}
+
+div div .logo>a {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 400;
+}
+
+div div ul {
+  padding: 0;
+  margin: 0;
+}
+
+div div ul li {
+  display: inline;
+  padding: 0.8em;
+}
+
+div div ul li>a {
+  font-size: 1em;
+  color: white;
+}
+
+.middle_picture {
+  padding: 100px;
+  position: relative;
+  border-radius: 15px;
+}
+
+.middle_picture .container .row {
+  padding-top: 10px;
+  background-color: white;
+  border-radius: 15px;
+}
+
+.middle_picture .container .main_picture img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
+}
+
+.middle_picture .container .main_write {
+  padding-top: 100px;
+}
+
+.middle_picture .container .main_write h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #222222;
+}
+
+.middle_picture .container .main_write p {
+  padding-right: 15px;
+  color: #8D778D;
+}
+
+.middle_picture .container .main_write .icon ul {
+  display: block;
+}
+
+.middle_picture .container .main_write .icon li a {
+  color: #8D778D;
+  padding-left: 0;
+}
+
+.middle_picture .container .main_write .icon .sosial ul li {
+  display: inline;
+}
+
+.icon ul li{
+  display:block;
+  padding-left: 0;
+}
+
+.sosial ul li{
+  display:inline;
+  padding-left: 0;
+  font-size:25px;
+}
+
+.sosial ul li a{
+  color: #E8E8E8;
+  font-size: 40px;
+}
+.sosial ul li a:hover{
+color: #88EFFF;
+}
+
+.about_myself{
+  padding-top:120px;
+}
+  .about,.myclients p,.three_article p,.project p,.project_picture_top p,.second_picture p{
+padding-left:0px;
+color: #8D778D;
+  }
+
+.border{
+margin-left:30px;
+}
+
+.statistic .progress-bar{
+  background-image: linear-gradient(to right, #766DFF, #88F1FF)
+}
+
+.educated{
+  height: 400px;
+  background-image: linear-gradient(to right, #766DFF, #88F1FF) 
+}
+.educated a{
+  border: 1px solid #9AB5F5;
+  padding:6px 20px;
+  border-radius: 8px;
+}
+.educated a:hover{
+  background-color: white;
+}
+ 
+.myclients p{
+  font-weight: 500;
+  text-align: center;
+}  
+
+.three_article div{
+ justify-content: space-between;
+}
+
+/*# sourceMappingURL=meetme.css.map */
+.three_article a{
+  font-size:40px;
+  color: #E1E1E1;
+ }
+
+ .three_article a:hover{
+color: #88EFFF;
+ }
+
+ .project_type ul li{
+display:inline;
+ }
+ .project_type ul li a{
+ color:black;
+ font-size: 13px;
+ font-weight: 600;
+}
+
+.project_picture_top div,.project_picture_bottom div{
+justify-content: space-between;
+}
+
+.progress div{
+border-radius: 10px;
+}
